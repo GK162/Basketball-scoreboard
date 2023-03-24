@@ -1,0 +1,42 @@
+@font-face{
+    src: url("digital-7");
+    font-family: digital-7
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home-count, #guest-count{
+    background: #0a0001;
+    color: #F94F6D;
+    width: 155px;
+    font-size: 90px;
+    font-weight: 400;
+    margin: 0;
+    font-family: digital-7;
+}
+h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px 0 20px 0;
+}
+
+button{
+    margin: 30px 5px;
+    background: none;
+    color: #9AABD8;
+    font-family: digital-7;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    padding: 10px 13px;
+}
